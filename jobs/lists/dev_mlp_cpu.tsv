@@ -1,0 +1,18 @@
+mlp	dev_region	oil_pct	Americas
+mlp	dev_region	oil_pct	China
+mlp	dev_region	oil_pct	Europe
+mlp	dev_region	oil_pct	Korea
+mlp	dev_region	oil_pct	Russia/C.Asia
+mlp	dev_region	oil_pct	S/SE Asia
+mlp	dev_region	lodging_score	Americas
+mlp	dev_region	lodging_score	China
+mlp	dev_region	lodging_score	Europe
+mlp	dev_region	lodging_score	Korea
+mlp	dev_region	lodging_score	Russia/C.Asia
+mlp	dev_region	lodging_score	S/SE Asia
+mlp	dev_region	maturity_group	Americas
+mlp	dev_region	maturity_group	China
+mlp	dev_region	maturity_group	Europe
+mlp	dev_region	maturity_group	Korea
+mlp	dev_region	maturity_group	Russia/C.Asia
+mlp	dev_region	maturity_group	S/SE Asia

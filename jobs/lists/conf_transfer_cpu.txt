@@ -1,0 +1,15 @@
+hapgam_e grin2nust maturity_doy
+hapgam_e grin2nust height_cm
+hapgam_e grin2nust seed_weight_g
+hapgam_e grin2nust yield_mg_ha
+hapgam_e grin2nust protein_pct
+hapgam_e grin2nust oil_pct
+hapgam_e grin2nust lodging_score
+hapgam_e grin2soynam lodging_score
+hapgam_e grin2soynam oil_pct
+hapgam_e grin2soynam protein_pct
+hapgam_e grin2soynam yield_mg_ha
+hapgam_e grin2soynam seed_weight_g
+hapgam_e grin2soynam height_cm
+hapgam_e grin2soynam flowering_doy
+hapgam_e grin2soynam maturity_doy

@@ -1,0 +1,17 @@
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/protein_pct/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/oil_pct/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/maturity_doy/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/flowering_doy/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/height_cm/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/seed_weight_g/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/yield_mg_ha/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/protein_pct/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/oil_pct/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2soynam/lodging_score/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2nust/maturity_doy/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2nust/height_cm/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2nust/seed_weight_g/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2nust/yield_mg_ha/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2nust/protein_pct/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2nust/oil_pct/all
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/grin2nust/lodging_score/all

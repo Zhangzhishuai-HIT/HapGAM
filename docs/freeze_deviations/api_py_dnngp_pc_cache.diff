@@ -1,0 +1,40 @@
+--- src/hapgam/api.py (frozen 2026-10-21 01:59, sha256 0a98ea9f…)
++++ src/hapgam/api.py (2026-10-21 16:47)
+@@ -216,24 +216,31 @@
+     y = torch.tensor(ytr, dtype=torch.float32, device=dev)
+     keys = list(NET_GRID[model])
+ 
+-    def prep(A, B, hp):
++    pc_cache = {}   # DNNGP PCs depend only on the inner fold and k, not on dropout/lr: compute once per fold
++
++    def prep(A, B, hp, key=None):
+         if model == "dnngp":
+-            mu, _ = col_stats(A)
+             k = min(hp["n_pc"], A.shape[0] - 1, A.shape[1])
+-            A, B = kernel_pcs(A, B, mu, k)
+-            return A, B, (lambda: DNNGP(k, hp["dropout"]))
++            if key is None or (key, k) not in pc_cache:
++                mu, _ = col_stats(A)
++                pcs = kernel_pcs(A, B, mu, k)
++                if key is None:
++                    return (*pcs, lambda: DNNGP(k, hp["dropout"]))
++                pc_cache[(key, k)] = pcs
++            return (*pc_cache[(key, k)], lambda: DNNGP(k, hp["dropout"]))
+         mu = A.mean(0, keepdim=True)
+         A, B = A - mu, B - mu
+         return A, B, (lambda: MLP(A.shape[1], dropout=hp["dropout"]))
+ 
++    folds = data.inner_folds(groups, inner_kind)
+     results = []
+     for combo in itertools.product(*NET_GRID[model].values()):
+         hp = dict(zip(keys, combo))
+         rs, eps = [], []
+-        for va in data.inner_folds(groups, inner_kind):
++        for i, va in enumerate(folds):
+             tri = torch.as_tensor(np.setdiff1d(np.arange(len(ytr)), va), device=dev)
+             vai = torch.as_tensor(va, device=dev)
+-            A, B, make = prep(X[tri], X[vai], hp)
++            A, B, make = prep(X[tri], X[vai], hp, key=i)
+             net, ep, r = train_net(make, A, y[tri], B, y[vai], lr=hp["lr"], wd=hp.get("wd", 0.0), device=dev)
+             rs.append(r)
+             eps.append(ep)

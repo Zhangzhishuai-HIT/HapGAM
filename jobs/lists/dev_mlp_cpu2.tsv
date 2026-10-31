@@ -1,0 +1,15 @@
+mlp	dev_region	seed_weight_g	Korea
+mlp	dev_region	seed_weight_g	Russia/C.Asia
+mlp	dev_region	seed_weight_g	S/SE Asia
+mlp	dev_region	yield_mg_ha	Americas
+mlp	dev_region	yield_mg_ha	China
+mlp	dev_region	yield_mg_ha	Europe
+mlp	dev_region	yield_mg_ha	Korea
+mlp	dev_region	yield_mg_ha	Russia/C.Asia
+mlp	dev_region	yield_mg_ha	S/SE Asia
+mlp	dev_region	protein_pct	Americas
+mlp	dev_region	protein_pct	China
+mlp	dev_region	protein_pct	Europe
+mlp	dev_region	protein_pct	Korea
+mlp	dev_region	protein_pct	Russia/C.Asia
+mlp	dev_region	protein_pct	S/SE Asia

@@ -1,0 +1,33 @@
+hapgam_e_linear	dev_region	oil_pct	Russia/C.Asia
+hapgam_e_linear	dev_region	oil_pct	S/SE Asia
+hapgam_e_linear	dev_region	lodging_score	Americas
+hapgam_e_linear	dev_region	lodging_score	China
+hapgam_e_linear	dev_region	lodging_score	Europe
+hapgam_e_linear	dev_region	lodging_score	Korea
+hapgam_e_linear	dev_region	lodging_score	Russia/C.Asia
+hapgam_e_linear	dev_region	lodging_score	S/SE Asia
+hapgam_e_linear	dev_region	maturity_group	Americas
+hapgam_e_linear	dev_region	maturity_group	China
+hapgam_e_linear	dev_region	maturity_group	Europe
+hapgam_e_linear	dev_region	maturity_group	Korea
+hapgam_e_linear	dev_region	maturity_group	Russia/C.Asia
+hapgam_e_linear	dev_region	maturity_group	S/SE Asia
+hapgam	dev_region	protein_pct	S/SE Asia
+hapgam	dev_region	oil_pct	Americas
+hapgam	dev_region	oil_pct	China
+hapgam	dev_region	oil_pct	Europe
+hapgam	dev_region	oil_pct	Korea
+hapgam	dev_region	oil_pct	Russia/C.Asia
+hapgam	dev_region	oil_pct	S/SE Asia
+hapgam	dev_region	lodging_score	Americas
+hapgam	dev_region	lodging_score	China
+hapgam	dev_region	lodging_score	Europe
+hapgam	dev_region	lodging_score	Korea
+hapgam	dev_region	lodging_score	Russia/C.Asia
+hapgam	dev_region	lodging_score	S/SE Asia
+hapgam	dev_region	maturity_group	Americas
+hapgam	dev_region	maturity_group	China
+hapgam	dev_region	maturity_group	Europe
+hapgam	dev_region	maturity_group	Korea
+hapgam	dev_region	maturity_group	Russia/C.Asia
+hapgam	dev_region	maturity_group	S/SE Asia

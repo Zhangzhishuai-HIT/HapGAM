@@ -1,0 +1,53 @@
+hapgam_e	C3	height_cm	S/SE Asia
+hapgam_e	C4	height_cm	MG000-0
+hapgam_e	C4	height_cm	MGI-II
+hapgam_e	C4	height_cm	MGIII-IV
+hapgam_e	C4	height_cm	MGV-VI
+hapgam_e	C4	height_cm	MGVII-X
+hapgam_e	C3	seed_weight_g	Americas
+hapgam_e	C3	seed_weight_g	China
+hapgam_e	C3	seed_weight_g	Europe
+hapgam_e	C3	seed_weight_g	Japan
+hapgam_e	C3	seed_weight_g	Korea
+hapgam_e	C3	seed_weight_g	Russia/C.Asia
+hapgam_e	C3	seed_weight_g	S/SE Asia
+hapgam_e	C4	seed_weight_g	MG000-0
+hapgam_e	C4	seed_weight_g	MGI-II
+hapgam_e	C4	seed_weight_g	MGIII-IV
+hapgam_e	C4	seed_weight_g	MGV-VI
+hapgam_e	C4	seed_weight_g	MGVII-X
+hapgam_e	C3	yield_mg_ha	Americas
+hapgam_e	C3	yield_mg_ha	Europe
+hapgam_e	C3	yield_mg_ha	Japan
+hapgam_e	C3	yield_mg_ha	Russia/C.Asia
+hapgam_e	C3	yield_mg_ha	S/SE Asia
+hapgam_e	C4	yield_mg_ha	MG000-0
+hapgam_e	C4	yield_mg_ha	MGVII-X
+hapgam_e	C3	protein_pct	Americas
+hapgam_e	C3	protein_pct	Europe
+hapgam_e	C3	protein_pct	Japan
+hapgam_e	C3	protein_pct	Russia/C.Asia
+hapgam_e	C3	protein_pct	S/SE Asia
+hapgam_e	C4	protein_pct	MG000-0
+hapgam_e	C4	protein_pct	MGVII-X
+hapgam_e	C3	oil_pct	Americas
+hapgam_e	C3	oil_pct	Europe
+hapgam_e	C3	oil_pct	Japan
+hapgam_e	C3	oil_pct	Russia/C.Asia
+hapgam_e	C3	oil_pct	S/SE Asia
+hapgam_e	C4	oil_pct	MG000-0
+hapgam_e	C4	oil_pct	MGVII-X
+hapgam_e	C3	lodging_score	Americas
+hapgam_e	C3	lodging_score	Europe
+hapgam_e	C3	lodging_score	Japan
+hapgam_e	C3	lodging_score	Russia/C.Asia
+hapgam_e	C3	lodging_score	S/SE Asia
+hapgam_e	C4	lodging_score	MG000-0
+hapgam_e	C4	lodging_score	MGVII-X
+hapgam_e	C3	maturity_group	Americas
+hapgam_e	C3	maturity_group	Europe
+hapgam_e	C3	maturity_group	Japan
+hapgam_e	C3	maturity_group	Russia/C.Asia
+hapgam_e	C3	maturity_group	S/SE Asia
+hapgam_e	C4	maturity_group	MG000-0
+hapgam_e	C4	maturity_group	MGVII-X

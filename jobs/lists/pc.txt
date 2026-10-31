@@ -1,0 +1,16 @@
+hapgam_e pc_random pc_flower_purple
+hapgam_e pc_random pc_pubescence_tawny
+hapgam_e pc_random pc_indeterminate
+hapgam_e pc_random pc_seedcoat_pigmented
+gblup pc_random pc_flower_purple
+gblup pc_random pc_pubescence_tawny
+gblup pc_random pc_indeterminate
+gblup pc_random pc_seedcoat_pigmented
+egblup pc_random pc_flower_purple
+egblup pc_random pc_pubescence_tawny
+egblup pc_random pc_indeterminate
+egblup pc_random pc_seedcoat_pigmented
+lightgbm pc_random pc_flower_purple
+lightgbm pc_random pc_pubescence_tawny
+lightgbm pc_random pc_indeterminate
+lightgbm pc_random pc_seedcoat_pigmented

@@ -1,0 +1,16 @@
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/maturity_doy/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/flowering_doy/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/height_cm/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/seed_weight_g/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/yield_mg_ha/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/lodging_score/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C2/maturity_group/lockbox_japan
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/maturity_doy/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/flowering_doy/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/height_cm/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/seed_weight_g/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/yield_mg_ha/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/protein_pct/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/oil_pct/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/lodging_score/lockbox_random
+/home/user/zhangzhishuai/myhermes/2080/HapGAM/work/bglr/C1/maturity_group/lockbox_random
