@@ -3,7 +3,7 @@
 Writes results/tables/all_metrics.tsv (every scenario x model x trait) and Markdown + TSV tables
 for the manuscript under manuscript/tables/:
   table2_test_sets   accuracy in the two GRIN test sets (C2 Japanese, C1 random), all traits
-  table3_grouped     C3 and across-population prediction (C4, C5), primary traits: mean r and groups won by HapGAM
+  table3_grouped     C3 and across-population prediction (C4, C5), all traits: mean r and groups won by HapGAM
   tableS_<scenario>  every reported model x trait for one scenario (supplementary)
   tableS_compare_<scenario>  bootstrap comparisons of HapGAM (from compare_models.py output)
 all_metrics.tsv covers every model and scenario that was run; the manuscript tables report the models in REPORTED and
@@ -43,7 +43,6 @@ SINGLES = ["gblup", "egblup", "bayesb", "lightgbm", "hapgam_e"]
 TRAITS = {"maturity_doy": "Maturity date", "flowering_doy": "Flowering date", "height_cm": "Plant height",
           "seed_weight_g": "100-seed weight", "yield_mg_ha": "Seed yield", "protein_pct": "Protein",
           "oil_pct": "Oil", "lodging_score": "Lodging", "maturity_group": "Maturity group"}
-PRIMARY = ["maturity_doy", "flowering_doy", "height_cm", "seed_weight_g"]
 SCEN = {"dev_region": "Training-set cross-validation", "dev_random": "Training set, random five-fold",
         "C1": "C1 random test set", "C2": "C2 Japanese test set", "C3": "C3 leave-one-region-out",
         "C4": "Leave-one-maturity-group-out (not reported)", "soynam_random": "SoyNAM random five-fold (not reported)",
@@ -164,7 +163,7 @@ def table3(long):
     header = ["Trait"] + [MODELS[m] for m in models] + ["Wins vs EGBLUP", "Wins vs LightGBM"]
     rows, tsv = [], []
     for sc in ["C3", "grin2soynam", "grin2nust"]:
-        traits = [t for t in PRIMARY if t in scenarios.traits_for(sc)]
+        traits = [t for t in TRAITS if t in scenarios.traits_for(sc)]
         metric = "within_r" if sc.startswith("grin2") else "pearson"
         w = wide(long, sc, models, traits, metric)
         rows.append(group_row(SCEN[sc], len(header)))
